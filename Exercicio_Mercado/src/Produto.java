@@ -1,7 +1,7 @@
 public class Produto {
     Descricao descricao;
-    private double preco;
-    private int quantidadeEstoque;
+    protected double preco;
+    protected int quantidadeEstoque;
 
     public Produto(Descricao descricao, double preco, int quantidadeEstoque) {
         this.descricao = descricao;
@@ -16,5 +16,8 @@ public class Produto {
         produto = produto + "Quant em Estoque: " + quantidadeEstoque + "\n";
         produto = produto + "=======######=======\n";
         return produto;
+    }
+    public String getDescricao() {
+        return descricao.toString();
     }
 }

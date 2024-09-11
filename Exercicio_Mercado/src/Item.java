@@ -1,5 +1,5 @@
 public class Item {
-    private int quantidade;
+    protected int quantidade;
     Produto produto;
 
     public Item(int quantidade, Produto produto) {
