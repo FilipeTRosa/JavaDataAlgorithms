@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Classe_Data/Classe_Data.iml" filepath="$PROJECT_DIR$/Classe_Data/Classe_Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes_Lampada_Interruptor/Classes_Lampada_Interruptor.iml" filepath="$PROJECT_DIR$/Classes_Lampada_Interruptor/Classes_Lampada_Interruptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex1_classe_lampada/Ex1_classe_lampada.iml" filepath="$PROJECT_DIR$/Ex1_classe_lampada/Ex1_classe_lampada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio_Mercado/Exercicio_Mercado.iml" filepath="$PROJECT_DIR$/Exercicio_Mercado/Exercicio_Mercado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaDataAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/JavaDataAlgorithms.iml" />
+    </modules>
+  </component>
+</project>
