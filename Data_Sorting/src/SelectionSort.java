@@ -4,8 +4,9 @@ public class SelectionSort {
     public SelectionSort() {
     }
 
-    public int[] ordenaSelectionSort(int[] vetor) {
+    public static Resultado sort(int[] vetor) {
         int posicaoMenor, aux;
+        int trocas = 0;
         for (int i = 0; i < vetor.length; i++) {
             posicaoMenor = i;
             for (int j = i + 1; j < vetor.length; j++) {
@@ -16,7 +17,8 @@ public class SelectionSort {
             aux = vetor[posicaoMenor];
             vetor[posicaoMenor] = vetor[i];
             vetor[i] = aux;
+            trocas++;
         }
-        return vetor;
+        return new Resultado(vetor, trocas);
     }
 }
